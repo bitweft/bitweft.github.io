@@ -34,6 +34,7 @@
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
+<h1>
 <a name="cachewarp" class="anchor" href="#cachewarp"><span class="octicon octicon-link"></span></a><a href="https://github.com/juteroot/cachewarp">CacheWarp</a>
 </h1>
 
@@ -45,7 +46,7 @@
 <h3>
 <a name="using-ruby-code" class="anchor" href="#using-ruby-code"><span class="octicon octicon-link"></span></a>Using Ruby Code</h3>
 
-<p>Using CacheWarp object:</p>
+<h4>Using CacheWarp object:</4>
 
 <pre><code># Require CacheWarp in your file
     require 'cachewarp'
@@ -63,7 +64,7 @@
     request.is_cached?
 </code></pre>
 
-<p>One Liner:</p>
+<h4>One Liner:</h4>
 
 <pre><code># Returns 'false' since Google does not cache using Akamai CDN
     CacheWarp.new("http://www.google.com/").is_cached?
@@ -81,7 +82,7 @@
 <h2>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
 
-<p>Using Bundler</p>
+<h3>Using Bundler</h3>
 
 <pre><code># Add to Gemfile
     gem "cachewarp", "~&gt; 0.0.2"
@@ -89,7 +90,7 @@
     $ bundle
 </code></pre>
 
-<p>Using gem command</p>
+<h3>Using gem command</h3>
 
 <pre><code> $ gem install cachewarp
 </code></pre>
