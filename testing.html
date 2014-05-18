@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>BitWeft Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+        $(function () {
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<br/><br/>
+
+<div class="container">
+    <div class="col-md-3 right_padding">
+        <div class="row">
+            <h2>Posts</h2>
+            <ul>
+                <a href="#localisation_testing_strategy">
+                    <li>Strategy for Testing Localisation</li>
+                </a>
+
+            </ul>
+
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="row">
+            <h2 id="localisation_testing_strategy">Strategy for Testing Localisation on Local Machines</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-justify">
+                <h3>Localisation Testing</h3>
+
+                <p>Many software today are internationalized. They are customised according to the regions and locales.
+                    Testing it, is about verifying the translated text, date formats, measurements, etc. Testing
+                    localisation is an integral part of internationalized applications.</p>
+
+                <h3>Strategy for localisation testing</h3>
+
+                <p>Global applications have different text, date formats, etc. for different top level domains.
+                    For example, a global site www.myglobalsite.com will have text in English while www.myglobalsite.fr
+                    will have text in French. Their date formats, their measurement units, etc may differ.</p>
+
+                <p>For testing these differences, we will require such domains. But what if our application needs to be
+                    tested on our local machines? What if we do not still have the domain names?</p>
+
+                <p>So, hosts entries can come to the rescue!</p>
+
+                <h3>/etc/hosts</h3>
+
+                <p>The /etc/hosts file (present on your computer) is the place where the mapping of host names to IP
+                    addresses are kept. Our machines require to know some hostnames to IP address mappings before DNS
+                    can be referenced.</p>
+
+                <p>IP addresses- They are dotted numbers that identify every computer on the Internet
+                    host names- The computer name which is used to identify a it on the Internet (IP addresses are
+                    difficult to remember. So, host names are commonly used)</p>
+
+                <p>A typical /etc/hosts file consists of this:</p>
+                <img src="./img/testing/localisation_testing_strategy/host_entry_file.png" width="50%">
+
+                <p>To test our 'myglobalsite' application locally, we can add entries to this file.</p>
+
+                <p>The entries can be:</p>
+<pre>
+127.0.0.1    myglobalsite.com
+127.0.0.1    myglobalsite.fr
+127.0.0.1    myglobalsite.ch
+127.0.0.1    myglobalsite.co.uk
+</pre>
+                <p>and so on.</p>
+
+                <p>When the application runs on the local machine, when we hit the URL http://myglobalsite.com, the site
+                    for the '.com' top level domain will be shown. e.g.: Text in English.
+                    Similarly, when the URL http://myglobalsite.fr is hit, then the site for the '.fr' top level domain
+                    will be shown. e.g.: Text in French.</p>
+
+                <p>This way, we can make simple changes in the /etc/hosts file to be able to test the global application
+                    on our local machines.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
