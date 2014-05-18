@@ -3,28 +3,18 @@
     <title>BitWeft Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+        });
+        $(function(){
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="index.html"><img
-                    src="https://secure.gravatar.com/avatar/d38bfe4bde58be331d6d2658447d59d1?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"
-                    width="50px" height="50px"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="https://github.com/bitweft">Github</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<div id="header"></div>
 <br/><br/>
 
 <div class="container">
@@ -141,17 +131,7 @@ $ gem install cachewarp
 
     </div>
 </div>
-
-<div id="footer">
-    <div class="navbar navbar-default navbar-bottom" role="navigation">
-        <div class="container">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="http://getbootstrap.com/2.3.2/index.html">Bootstrap</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
+<div id="footer"></div>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
