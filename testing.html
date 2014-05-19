@@ -11,6 +11,21 @@
         $(function () {
             $("#footer").load("footer.html");
         });
+        $(function () {
+            $("#hosting_using_rack_heading").load("/bitweft.github.io/testing/hosting_using_rack.html #hosting_using_rack_heading");
+        });
+        $(function () {
+            $("#hosting_using_rack_body").load("/bitweft.github.io/testing/hosting_using_rack.html #hosting_using_rack_body");
+        });
+        $(function () {
+            $("#localisation_testing_strategy_heading").load("/bitweft.github.io/testing/localisation_testing_strategy.html #localisation_testing_strategy_heading");
+        });
+        $(function () {
+            $("#localisation_testing_strategy_body").load("/bitweft.github.io/testing/localisation_testing_strategy.html #localisation_testing_strategy_body");
+        });
+        $(function () {
+            $("#testing_contents").load("/bitweft.github.io/testing/testing_contents.html");
+        });
     </script>
 </head>
 <body>
@@ -18,176 +33,12 @@
 <br/><br/>
 
 <div class="container">
-    <div class="col-md-3 right_padding">
-        <div class="row">
-            <h2>Posts</h2>
-            <ul>
-                <a href="#localisation_testing_strategy">
-                    <li>Strategy for Testing Localisation</li>
-                </a>
-                <a href="#hosting_using_rack">
-                    <li>Hosting Using Rack</li>
-                </a>
-            </ul>
-
-        </div>
-    </div>
+    <div id="testing_contents"></div>
     <div class="col-md-9">
-        <div class="row">
-            <h2 id="localisation_testing_strategy">Strategy for Testing Localisation on Local Machines</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-justify">
-                <h3>Localisation Testing</h3>
-
-                <p>Many software today are internationalized. They are customised according to the regions and locales.
-                    Testing it, is about verifying the translated text, date formats, measurements, etc. Testing
-                    localisation is an integral part of internationalized applications.</p>
-
-                <h3>Strategy for localisation testing</h3>
-
-                <p>Global applications have different text, date formats, etc. for different top level domains.
-                    For example, a global site www.myglobalsite.com will have text in English while www.myglobalsite.fr
-                    will have text in French. Their date formats, their measurement units, etc may differ.</p>
-
-                <p>For testing these differences, we will require such domains. But what if our application needs to be
-                    tested on our local machines? What if we do not still have the domain names?</p>
-
-                <p>So, hosts entries can come to the rescue!</p>
-
-                <h3>/etc/hosts</h3>
-
-                <p>The /etc/hosts file (present on your computer) is the place where the mapping of host names to IP
-                    addresses are kept. Our machines require to know some hostnames to IP address mappings before DNS
-                    can be referenced.</p>
-
-                <p>IP addresses- They are dotted numbers that identify every computer on the Internet
-                    host names- The computer name which is used to identify a it on the Internet (IP addresses are
-                    difficult to remember. So, host names are commonly used)</p>
-
-                <p>A typical /etc/hosts file consists of this:</p>
-                <img src="./img/testing/localisation_testing_strategy/host_entry_file.png" width="50%">
-
-                <p>To test our 'myglobalsite' application locally, we can add entries to this file.</p>
-
-                <p>The entries can be:</p>
-<pre>
-127.0.0.1    myglobalsite.com
-127.0.0.1    myglobalsite.fr
-127.0.0.1    myglobalsite.ch
-127.0.0.1    myglobalsite.co.uk
-</pre>
-                <p>and so on.</p>
-
-                <p>When the application runs on the local machine, when we hit the URL http://myglobalsite.com, the site
-                    for the '.com' top level domain will be shown. e.g.: Text in English.
-                    Similarly, when the URL http://myglobalsite.fr is hit, then the site for the '.fr' top level domain
-                    will be shown. e.g.: Text in French.</p>
-
-                <p>This way, we can make simple changes in the /etc/hosts file to be able to test the global application
-                    on our local machines.</p>
-            </div>
-        </div>
-        <div class="row">
-            <h2 id="hosting_using_rack">Hosting Using Rack</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-justify">
-
-                <p>There maybe times when you would want to host files or applications locally for manual or
-                    automated
-                    testing. You can do so easily using Rack.
-                </p>
-
-                <h3>What is Rack?</h3>
-
-                <p>Rack is a modular Ruby webserver interface. The author of Rack- Christian Neukirchen says that
-                    Rack aims
-                    to provide minimal API for connecting webservers that support Ruby and Ruby web frameworks.</p>
-
-                <h3>Hosting files or applications</h3>
-
-                <p>You can host files or applications easily using rack. You can make use of Ruby to do this.</p>
-
-                <p>First, you need to install the rack gem using the command:</p>
-<pre>
-gem install rack</pre>
-                <p>This will show a message that the gem has been installed.</p>
-                <img src="./img/testing/hosting_using_rack/install_rack_gem.png" width="50%">
-
-                <p>If the installation of this gem fails due to permissions, you might have to do:</p>
-<pre>
-sudo gem install rack
-</pre>
-                <p>Use sudo only when other options do not work for you.</p>
-
-                <p>Now, create a ruby file called <b>host_using_rack_demo.rb</b></p>
-
-                <p>Add the following contents into the newly created ruby file:</p>
-<pre>
-require 'rack'
-Rack::Handler::WEBrick.run(
-  Rack::Directory.new("."),
-  :Port => 7777
-)
-</pre>
-                <p>WEBrick is a Ruby library. It provides HTTP web server services. It can also be configured as HTTPs
-                    server, proxy server, etc. You can read more about WEBrick in <a
-                            href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/WEBrick.html">ruby-docs</a>.
-                </p>
-
-                <p>The line:</p>
-<pre>
-Rack::Directory.new(".")
-</pre>
-                <p>specifies which directory needs to be hosted. Since we have
-                    specified ".", the current directory will be hosted. You can specify the required path.</p>
-<pre>
-:Port => 7777
-</pre>
-                <p>indicates which port to host on. We have currently hosted on port 7777. You can specify the port of
-                    your choice.</p>
-
-                <p>Now, save this file and simply run using command:</p>
-<pre>
- ruby host_using_rack_demo.rb
-</pre>
-                <p>This will start the HTTP server at the specified port 7777.</p>
-                <img src="./img/testing/hosting_using_rack/server_started.png" width="50%">
-
-                <p>The files and folders that are present in the same location as the host_using_rack_demo.rb file
-                    (which is also my current working directory) are shown below:</p>
-                <img src="./img/testing/hosting_using_rack/files_to_be_hosted.png" width="50%">
-
-                <p>These same files are hosted on port 7777.</p>
-                <img src="./img/testing/hosting_using_rack/files_hosted_on_port.png" width="50%">
-
-                <h3>How did we use it?</h3>
-
-                <p>We were writing some tests using Cucumber + Ruby. For those tests, we had to host certain xml feeds.
-                    We had options of hosting them on Amazon cloud. But, its always good for tests to not have external
-                    dependencies whenever possible. So, we hosted the feeds using rack.</p>
-
-                <p>Also, we needed to stop hosting after the tests were complete. So, we started the server using a new
-                    thread and would kill that thread after the test.</p>
-
-                <p>While starting the server:</p>
-<pre>
-thread = Thread.new do
-        Rack::Handler::WEBrick.run(
-            Rack::Directory.new(dir_path),
-            :Port => port_number
-        )
-      end
-</pre>
-                <p>While shutting the server down:</p>
-<pre>
-thread.kill
-</pre>
-                <p>Rack, thus provides an easy way to host applications or files. </p>
-            </div>
-
-        </div>
+        <div id="localisation_testing_strategy_heading"></div>
+        <div id="localisation_testing_strategy_body"></div>
+        <div id="hosting_using_rack_heading"></div>
+        <div id="hosting_using_rack_body"></div>
     </div>
 </div>
 <div id="footer"></div>

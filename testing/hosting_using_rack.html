@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>BitWeft Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("../header.html");
+        });
+        $(function () {
+            $("#footer").load("../footer.html");
+        });
+        $(function () {
+            $("#testing_contents").load("./testing_contents.html");
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<br/><br/>
+
+<div class="container">
+    <div id="testing_contents"></div>
+    <div class="col-md-9">
+        <div class="row" id="hosting_using_rack_heading">
+            <h2>Hosting Using Rack</h2>
+        </div>
+        <div class="row" id="hosting_using_rack_body">
+            <div class="col-md-12 text-justify">
+
+                <p>There maybe times when you would want to host files or applications locally for manual or
+                    automated
+                    testing. You can do so easily using Rack.
+                </p>
+
+                <h3>What is Rack?</h3>
+
+                <p>Rack is a modular Ruby webserver interface. The author of Rack- Christian Neukirchen says that
+                    Rack aims
+                    to provide minimal API for connecting webservers that support Ruby and Ruby web frameworks.</p>
+
+                <h3>Hosting files or applications</h3>
+
+                <p>You can host files or applications easily using rack. You can make use of Ruby to do this.</p>
+
+                <p>First, you need to install the rack gem using the command:</p>
+<pre>
+gem install rack</pre>
+                <p>This will show a message that the gem has been installed.</p>
+                <img src="/bitweft.github.io/img/testing/hosting_using_rack/install_rack_gem.png" width="50%">
+
+                <p>If the installation of this gem fails due to permissions, you might have to do:</p>
+<pre>
+sudo gem install rack
+</pre>
+                <p>Use sudo only when other options do not work for you.</p>
+
+                <p>Now, create a ruby file called <b>host_using_rack_demo.rb</b></p>
+
+                <p>Add the following contents into the newly created ruby file:</p>
+<pre>
+require 'rack'
+Rack::Handler::WEBrick.run(
+  Rack::Directory.new("."),
+  :Port => 7777
+)
+</pre>
+                <p>WEBrick is a Ruby library. It provides HTTP web server services. It can also be configured as HTTPs
+                    server, proxy server, etc. You can read more about WEBrick in <a
+                            href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/WEBrick.html">ruby-docs</a>.
+                </p>
+
+                <p>The line:</p>
+<pre>
+Rack::Directory.new(".")
+</pre>
+                <p>specifies which directory needs to be hosted. Since we have
+                    specified ".", the current directory will be hosted. You can specify the required path.</p>
+<pre>
+:Port => 7777
+</pre>
+                <p>indicates which port to host on. We have currently hosted on port 7777. You can specify the port of
+                    your choice.</p>
+
+                <p>Now, save this file and simply run using command:</p>
+<pre>
+ ruby host_using_rack_demo.rb
+</pre>
+                <p>This will start the HTTP server at the specified port 7777.</p>
+                <img src="/bitweft.github.io/img/testing/hosting_using_rack/server_started.png" width="50%">
+
+                <p>The files and folders that are present in the same location as the host_using_rack_demo.rb file
+                    (which is also my current working directory) are shown below:</p>
+                <img src="/bitweft.github.io/img/testing/hosting_using_rack/files_to_be_hosted.png" width="50%">
+
+                <p>These same files are hosted on port 7777.</p>
+                <img src="/bitweft.github.io/img/testing/hosting_using_rack/files_hosted_on_port.png" width="50%">
+
+                <h3>How did we use it?</h3>
+
+                <p>We were writing some tests using Cucumber + Ruby. For those tests, we had to host certain xml feeds.
+                    We had options of hosting them on Amazon cloud. But, its always good for tests to not have external
+                    dependencies whenever possible. So, we hosted the feeds using rack.</p>
+
+                <p>Also, we needed to stop hosting after the tests were complete. So, we started the server using a new
+                    thread and would kill that thread after the test.</p>
+
+                <p>While starting the server:</p>
+<pre>
+thread = Thread.new do
+        Rack::Handler::WEBrick.run(
+            Rack::Directory.new(dir_path),
+            :Port => port_number
+        )
+      end
+</pre>
+                <p>While shutting the server down:</p>
+<pre>
+thread.kill
+</pre>
+                <p>Rack, thus provides an easy way to host applications or files. </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
