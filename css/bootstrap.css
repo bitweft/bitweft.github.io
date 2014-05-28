@@ -718,7 +718,7 @@ pre {
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #AEA7D5;
+  background-color: #D6D3EB;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -3939,7 +3939,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #332169;
+  background-color: #271657;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -5783,7 +5783,7 @@ button.close {
 
 #footer {
   height: 60px;
-  background-color: #332169;
+  background-color: #271657;
 }
 
 li {
