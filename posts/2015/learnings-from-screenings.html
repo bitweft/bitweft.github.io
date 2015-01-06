@@ -177,9 +177,53 @@
     </div>
   </div>
 </article>
-
 <hr>
 
+<!--Social Share Content-->
+<div class="container">
+<div class="row">
+  <div class="col-lg-4">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="LavanyaMohan210">Tweet</a>
+  </div>
+  <div class="col-lg-4"><script type="IN/Share" data-counter="right"></script></div>
+  <div class="col-lg-4"><div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div></div>
+</div>
+</div>
+
+<!--Facebook-->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1398206627143184',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<!--Twitter-->
+<script>!function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+  if (!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = p + '://platform.twitter.com/widgets.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }
+}(document, 'script', 'twitter-wjs');</script>
+<!--LinkedIn-->
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+  lang: en_US
+</script>
+
+<!--Disqus-->
 <div id="disqus_thread" class="container"></div>
 
 <script type="text/javascript">
