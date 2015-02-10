@@ -25,6 +25,9 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+p a {
+  color: #337ab7;
+}
 a {
   color: #404040;
 }
