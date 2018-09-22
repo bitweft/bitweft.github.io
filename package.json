@@ -1,18 +1,9 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.13.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "keywords": ["jekyll", "theme", "minimal"],
-  "author": "Michael Rose",
+  "name": "bitweft",
+  "version": "1.0",
+  "description": "BitWeft blog powered by Minimal Mistakes 2 column Jekyll theme.",
+  "author": "BitWeft",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
   "engines": {
     "node": ">= 0.10.0"
   },
