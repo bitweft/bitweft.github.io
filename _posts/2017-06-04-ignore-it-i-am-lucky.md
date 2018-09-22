@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /posts/2017/ignore-it-i-am-lucky.html
 title: "Ignore it, I'm actually lucky!"
 excerpt: "A not very unusual day in the life of a working woman"
 header:

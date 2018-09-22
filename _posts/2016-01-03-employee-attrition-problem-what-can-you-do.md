@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /posts/2016/employee-attrition-problem-what-can-you-do.html
 title: "Dealing with Employee Attrition"
 excerpt: "Employee Attrition Problems? What can you do?"
 header:

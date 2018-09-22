@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /posts/2018/danger-of-a-single-story.html
 title: "Danger of a single story"
 excerpt: "Dangers of knowing only a single side of a story"
 header:

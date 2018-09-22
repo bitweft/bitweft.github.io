@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /posts/2015/learnings-from-screenings.html
 title: "Learning from screenings"
 excerpt: "Commitment, interpersonal skills, meaning of success and other things we learnt by screening videos for groups"
 header:

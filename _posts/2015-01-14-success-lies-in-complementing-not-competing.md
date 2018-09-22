@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /posts/2015/success-lies-in-complementing-not-competing.html
 title: "Success lies in Complementing not Competing"
 excerpt: "Complementing is better than competing and will lead to success"
 header:
