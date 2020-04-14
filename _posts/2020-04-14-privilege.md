@@ -79,7 +79,7 @@ After touring the village Maya and Sarah head back to Rane saheb’s house for a
 Maya wonders how these people are willing to serve the costliest fruits and drinks to their guests
 while they themselves compromise and live such non-luxurious lives.
 
-After connecting with a few more villagers, Maya and Sarah take their leave. Follow them to their car, the kids wave goodbye.
+After interacting with a few more villagers, Maya and Sarah take their leave. Follow them to their car, the kids wave goodbye.
 
 Back in the car, Sarah asks, “One and half hours journey back home now. Do you think the visit was worth the time?”.
 “Definitely”, says Maya. “It surprises me how people can be content with so little. Makes me wonder why privileged
