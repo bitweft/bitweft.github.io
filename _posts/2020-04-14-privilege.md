@@ -81,15 +81,21 @@ while they themselves compromise and live such non-luxurious lives.
 
 After interacting with a few more villagers, Maya and Sarah take their leave. Follow them to their car, the kids wave goodbye.
 
-Back in the car, Sarah asks, “One and half hours journey back home now. Do you think the visit was worth the time?”.
+Back in the car, Sarah asks, “We have a one and half long hours journey back home now. Do you think this visit was worth it?”.
 “Definitely”, says Maya. “It surprises me how people can be content with so little. Makes me wonder why privileged
-people like us always complain of not having enough.”
+people like us always complain about not having enough.”
 
-With a cunning look on her face, she continues, “You and I visiting their village and even eating at their home is
-good enough I guess. They won’t ask for anything more now, would they?”  
-“No, they won’t”, says a poker faced aunt Sarah. “Victory in the coming election will definitely be ours.”
+With a cunning look on her face, she continues, “In my opinion, they will not hesitate to support you.”  
+“That's right”, says a poker faced aunt Sarah. “Victory in the coming election will definitely be ours.”
 
-When they reach home, Maya's uncle surprises her with a black forest cake to celebrate her birthday. 
-“Thank you uncle. But, did you not know I don’t like black forest cakes?”, she says.   
-A short moment of silence passes before Sarah says, “Not a problem, dear. I’ll have the maid go downstairs to buy you a
-fruit cake”.
+On arriving at the main entrance of their building, Sarah and Maya step out of the car and head home. The chauffeur
+proceeds to park the car at the designated spot.
+
+Back home, Maya spots a half kilo black forest birthday cake on the dining table. Her uncle, with a broad smile says,
+"A small surprise for my dear niece!"  
+“Thank you uncle. But, did you not know I don’t like black forest cakes?”, she laughs.  
+
+A calm Sarah says, "I'll arrange for something else".
+
+When the chauffeur arrives at their door to return the car key, Sarah instructs him to drive their maid to the bakery and
+back so that she can buy Maya a fruit cake. The chauffeur acts as instructed in deep contemplative silence.
