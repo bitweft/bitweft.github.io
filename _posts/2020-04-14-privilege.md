@@ -53,8 +53,8 @@ Maya, not knowing how to react to the gratitude showered upon them by this simpl
 “On this side, we have mango trees. This is the mango season. I’ve told my wife to make aamras for you with fresh mangoes.
 I’m sure you’ll like the taste”, he continues.
 
-“We also have two cows and three buffaloes here and a few chickens there. We are the only family in the village that 
-have three buffaloes”. Reading between the lines that his family is the richest in the village, Maya wonders how the 
+“We also have two cows and three buffaloes here and a few chickens there. Ours is the only family in the village that
+owns three buffaloes”. Reading between the lines that his family is the richest in the village, Maya wonders how the 
 houses and living conditions of others would be considering his house was rather small in itself.
 
 He then leads them to the other side and points at the communal toilets further away. “We built those ourselves after we 
@@ -97,5 +97,6 @@ Back home, Maya spots a half kilo black forest birthday cake on the dining table
 
 A calm Sarah says, "I'll arrange for something else".
 
-When the chauffeur arrives at their door to return the car key, Sarah instructs him to drive their maid to the bakery and
-back so that she can buy Maya a fruit cake. The chauffeur acts as instructed in deep contemplative silence.
+When the chauffeur arrives at their door to return the car keys, Sarah instructs him to drive their maid to the bakery
+and back so that she can buy Maya a fruit cake. The chauffeur, having witnessed all events of the day, acts as instructed
+in deep contemplative silence.
