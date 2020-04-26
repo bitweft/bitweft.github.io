@@ -23,7 +23,8 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/lavanyaMohan210"
-
+twitter:
+  username: LavanyaMohan210
 # Reading Files
 include:
   - .htaccess
