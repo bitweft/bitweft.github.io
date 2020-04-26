@@ -7,7 +7,7 @@ title                    : "Bitweft Blog"
 title_separator          : "-"
 name                     : "BitWeft"
 description              : "A site for random musings of the mind"
-url                      : "http://www.bitweft.com/"
+url                      : "https://bitweft.com/"
 repository               : "bitweft/bitweft.github.io"
 words_per_minute         : 200
 comments:
