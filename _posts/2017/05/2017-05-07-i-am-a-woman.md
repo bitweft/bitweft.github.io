@@ -7,6 +7,7 @@ header:
   overlay_image: "/assets/images/posts/i-am-a-woman/woman.jpg"
   show_overlay_excerpt: false
   overlay_filter: "rgba(0, 0, 0, 0.5)"
+tags: gender women
 ---
 
 I'm a woman...

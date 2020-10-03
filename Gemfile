@@ -8,3 +8,6 @@ gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'kramdown-parser-gfm'
+group :jekyll_plugins do
+  gem "jekyll-archives"
+end

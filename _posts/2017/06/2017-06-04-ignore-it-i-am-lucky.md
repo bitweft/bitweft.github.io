@@ -7,6 +7,7 @@ header:
   overlay_image: "/assets/images/posts/ignore-it-i-am-lucky/lucky.jpg"
   show_overlay_excerpt: false
   overlay_filter: "rgba(0, 0, 0, 0.6)"
+tags: gender women perspectives
 ---
 As she stops her auto-geared black coloured two wheeler in the Parking of Shambu Parathas and Biryani - a popular 
 restaurant near her apartment, Revathi looks at her watch. It says 10:15pm - almost closing time.

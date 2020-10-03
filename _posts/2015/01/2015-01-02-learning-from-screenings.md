@@ -6,6 +6,7 @@ excerpt: "Commitment, interpersonal skills, meaning of success and other things 
 header:
   overlay_image: "/assets/images/posts/learning-from-screenings/screening-2.png"
   show_overlay_excerpt: false
+tags: work skill_development
 ---
 
 “I did not think of that side of things”, “I did not know that” are common things that we hear or say when we engage in 

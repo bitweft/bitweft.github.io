@@ -1,6 +1,7 @@
 ---
 title: "Quality is a Team Responsibility"
 excerpt: "Quality should not be only a tester's responsibility but should be the entire team's responsibility"
+tags: teams quality
 ---
 Heaving a sigh of relief after deploying a hotfix, Maira and Rob step out of the “war-room” - a meeting room in their
 office dedicated for people who are dealing with production outages and issues.

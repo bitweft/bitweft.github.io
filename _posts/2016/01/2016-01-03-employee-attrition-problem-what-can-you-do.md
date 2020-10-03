@@ -7,6 +7,7 @@ header:
   overlay_image: "/assets/images/posts/employee-attrition-problem-what-can-you-do/employee-attrition.png"
   show_overlay_excerpt: false
   overlay_filter: "rgba(0, 0, 0, 0.5)"
+tags: employee work
 ---
 
 If you have worked for a couple of years in the same organisation, you would have witnessed a time when many of your 

@@ -5,6 +5,7 @@ header:
   overlay_image: "/assets/images/posts/privilege/balance.png"
   show_overlay_excerpt: false
   overlay_filter: "rgba(0, 0, 0, 0.3)"
+tags: privilege fiction
 ---
 Informing the chauffeur that they will be back in about 2 hours, Sarah and her niece Maya step out of the car.
 “This definitely is going to be an interesting experience”, says Maya smiling, as they walk on a narrow, unpaved 

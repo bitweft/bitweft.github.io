@@ -1,6 +1,7 @@
 ---
 title: "Aisle Seat"
 excerpt: "I realised the reason for my preference of aisle seat is very different from what I initially thought it was"
+tags: travel
 ---
 Imagine you booked a window seat on a flight. You board the airplane and walk to the row of your seat.
 

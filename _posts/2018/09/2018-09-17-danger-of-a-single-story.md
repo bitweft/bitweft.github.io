@@ -7,6 +7,7 @@ header:
   overlay_image: "/assets/images/posts/danger-of-a-single-story/different-stories.jpg"
   show_overlay_excerpt: false
   overlay_filter: "rgba(0, 0, 0, 0.5)"
+tags: travel perspectives
 ---
 As I got into a local bus heading towards Dauji temple in Mathura, I wondered whether I was prepared to go witness the
 <a href="https://www.sid-thewanderer.com/2015/05/huranga-holi-at-dauji-temple-near.html" target="_blank"> Huranga Holi</a>.

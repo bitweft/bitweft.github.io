@@ -7,6 +7,7 @@ header:
   overlay_image: "/assets/images/posts/complement-not-compete/competitors.png"
   show_overlay_excerpt: false
   overlay_filter: "rgba(0, 0, 0, 0.5)"
+tags: people competition teams
 ---
 
 Alice and Bob were peers working on a software project which had International clients and lucrative rewards. When they 
