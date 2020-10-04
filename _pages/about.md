@@ -16,7 +16,8 @@ She cares deeply about shipping quality products and enjoys working with teams t
 Lavanya has written a chapter in the book [Around the World with 80 Software Testers](https://leanpub.com/AroundTheWorldWith80SoftwareTesters).
 
 ## Conference Experience
-Lavanya has spoken at conferences like Selenium Conf, VodQA, TAQELAH, TribalQonf etc. 
+Lavanya has spoken at conferences like Selenium Conf, STeP-IN Summit, VodQA, TAQELAH, TribalQonf etc.  
+She is one of the volunteers of [TAQELAH](https://twitter.com/taqelahsg?lang=en) meetup group and helps in organising the meetups.  
 
 ## Get in touch
 Connect with her on [Twitter](https://twitter.com/LavanyaMohan210) or [LinkedIn](https://www.linkedin.com/in/lavanya-mohan).
