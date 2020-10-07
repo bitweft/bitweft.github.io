@@ -1,6 +1,6 @@
 ---
 title: "Productive Team Meetings"
-excerpt: "Some points to pay attention to for more productive team meetings"
+excerpt: "We want our meetings to be productive. But, in many instances, coming up with decisions take long. Also, getting everyone's commitment is a challenge"
 tags: teams meetings
 ---
 Entering the meeting room at 8:30am sharp, Neha, the General Manager of N-1 Consultants, finds all the participants
