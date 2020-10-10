@@ -115,7 +115,10 @@ whitelist:
   - jekyll-redirect-from
 
 # Analytics
-google_analytics: UA-41776016-1
+analytics:
+  provider: "google"
+  google:
+    tracking_id: UA-41776016-1
 
 category_archive:
   type: liquid
