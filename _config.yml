@@ -114,6 +114,8 @@ whitelist:
   - jemoji
   - jekyll-redirect-from
 
+# Analytics
+google_analytics: UA-41776016-1
 
 category_archive:
   type: liquid
