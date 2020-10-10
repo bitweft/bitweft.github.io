@@ -3,9 +3,6 @@ redirect_from:
   - /posts/2015/learnings-from-screenings.html
 title: "Learning from screenings"
 excerpt: "Commitment, interpersonal skills, meaning of success and other things we learnt by screening videos for groups"
-header:
-  overlay_image: "/assets/images/posts/learning-from-screenings/screening-2.png"
-  show_overlay_excerpt: false
 tags: work skill_development
 ---
 

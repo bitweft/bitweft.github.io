@@ -3,10 +3,6 @@ redirect_from:
   - /posts/2017/i-am-a-woman.html
 title: "I'm a woman"
 excerpt: "What you face when you're a woman"
-header:
-  overlay_image: "/assets/images/posts/i-am-a-woman/woman.jpg"
-  show_overlay_excerpt: false
-  overlay_filter: "rgba(0, 0, 0, 0.5)"
 tags: gender women
 ---
 

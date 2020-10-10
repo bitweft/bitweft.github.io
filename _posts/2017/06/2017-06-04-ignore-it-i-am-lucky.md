@@ -3,10 +3,6 @@ redirect_from:
   - /posts/2017/ignore-it-i-am-lucky.html
 title: "Ignore it, I'm actually lucky!"
 excerpt: "A not very unusual day in the life of a working woman"
-header:
-  overlay_image: "/assets/images/posts/ignore-it-i-am-lucky/lucky.jpg"
-  show_overlay_excerpt: false
-  overlay_filter: "rgba(0, 0, 0, 0.6)"
 tags: gender women perspectives
 ---
 As she stops her auto-geared black coloured two wheeler in the Parking of Shambu Parathas and Biryani - a popular 

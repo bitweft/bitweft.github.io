@@ -3,10 +3,6 @@ redirect_from:
   - /posts/2015/success-lies-in-complementing-not-competing.html
 title: "Success lies in Complementing not Competing"
 excerpt: "Complementing is better than competing and will lead to success"
-header:
-  overlay_image: "/assets/images/posts/complement-not-compete/competitors.png"
-  show_overlay_excerpt: false
-  overlay_filter: "rgba(0, 0, 0, 0.5)"
 tags: people competition teams
 ---
 
