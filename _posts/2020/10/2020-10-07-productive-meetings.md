@@ -104,9 +104,13 @@ Let’s look at some of the things that worked well for this team:
 - Trusting each other enough to speak openly about the harsh reality
 - Putting effort to understand everyone’s perspective
 - Managing anger, acknowledging the merit of understanding different opinions
+- Making effort to come up with alternatives even when it initially appears as a binary choice
 - Working together to come up with options to mitigate the negative consequences of tough decisions
 - Getting not just a buy-in but also a full commitment once a decision is made
 - Leaving the meeting with concrete action items
 
 Next time we walk into a meeting, let’s pay attention to these points and look for areas to improve and make our
 meetings more productive!
+
+
+Thanks you Fiona and Sreekrishnaa for your inputs.
