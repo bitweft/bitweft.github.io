@@ -113,4 +113,5 @@ Next time we walk into a meeting, let’s pay attention to these points and look
 meetings more productive!
 
 
-Thanks you Fiona and Sreekrishnaa for your inputs.
+Thank you <a href="https://www.linkedin.com/in/fiona-coath/" target="_blank">Fiona</a> and
+<a href="https://www.linkedin.com/in/sreekrishnaa-srikanthan/" target="_blank">Sreekrishnaa</a> for your inputs.
