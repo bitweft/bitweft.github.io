@@ -26,8 +26,8 @@ This helped QAs understand what tests were already covered at these lower levels
 Also, this gave them a good opportunity to suggest other cases that could be tested at those levels.  
 ![Discussions before Dev Box Testing](https://dynamic.pixton.com/comic/j/u/h/7/juh71pd7hq462i09_v19_.png)
 
-<a href="https://twitter.com/mushtaqA" target="_blank">Mushtaq Ahmed</a> was one of the first people who started this
-actively, and the team benefited a lot from it.
+<a href="https://twitter.com/mushtaqA" target="_blank">Mushtaq Ahmed</a> was one of the first to start this actively,
+and the team benefited a lot from it.
 
 ## Writing a Failing Test Together when Issues were Found
 When issues were found, in most cases, QAs and Developers would collaborate to write a failing test first.  
@@ -60,4 +60,4 @@ We could avoid duplication of tests across levels and have more tests at the lev
 Hope some of these points can help your teams too!
 
 
-Credits: Comic strip was made using <a href="https://www.pixton.com/comic/juh71pd7" target="_blank">Pixton.com</a>
+Credits: <a href="https://www.pixton.com/comic/juh71pd7" target="_blank">Comic strip</a> was made using Pixton.com
