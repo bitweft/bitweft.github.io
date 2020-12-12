@@ -3,6 +3,9 @@ title: "Talks / Workshops at Conferences"
 permalink: /talks/
 layout: single
 ---
+## Applitools Events
+- [Insights from "Unspoken" Customer Feedback](https://guildconferences.com/events/future-of-testing-winter-2020/) at Applitools FoT (2020)
+
 ## Selenium Conf
 - [Mobile Automation Device Lab](https://www.youtube.com/watch?v=FY-5AXyQBl4&feature=youtu.be) (2018)
 - Game: Collaboration - A Taboo (2018)
@@ -16,8 +19,9 @@ layout: single
 ## TechnoWise
 - [MAD Lab for mobile test automation](https://www.meetup.com/TechnoWise/events/250127214/) (2018)
 
-## TribalQonf
-- [Treating Test Code as Production Code](https://www.slideshare.net/lavanyam210/treating-test-code-as-production-code) (2020)
+## The Test Tribe Events
+- [Quality is a Team Responsibility](https://youtu.be/tLtUuqmBZKo) at TestFlix (2020)
+- [Treating Test Code as Production Code](https://www.slideshare.net/lavanyam210/treating-test-code-as-production-code) at TribalQonf (2020)
 
 ## VodQA
 - Game: Collaboration - A Taboo (2017)
