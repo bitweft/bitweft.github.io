@@ -61,7 +61,7 @@ But, a design flaw in some applications that we might be building could cause mo
 Imagine building a navigation app whose counter-intuitive design makes the driver look at the screen for a few seconds
 longer in order to comprehend the instructions. It could lead to accidents and fatalities.
 
-Or think of why Indigo Airlines started instructing the passengers to save their work before putting their laptops away for landing.
+Or think of why some airlines instruct the passengers to save their work before putting their laptops away for landing.
 Could it be because some people forgot to save and lost a lot of critical work?
 Could this be fixed easily if the application designers realised that humans forget and included an auto-save functionality?
 
