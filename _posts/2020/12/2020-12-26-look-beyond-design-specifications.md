@@ -54,9 +54,9 @@ Very often, we might uncover that the design, even if according to the specifica
 to perform the action correctly.  
 Then, we should collaborate with the team members to improve the design and also improve the overall experience of the product.
 
-Of course the light switch incident might not seem like a critical design flaw case. It only takes a few seconds to
+Of course, this light switch issue might not seem like a critical design flaw. It only takes a few seconds to
 correct the mistake and doesn’t really cause any harm.  
-But, a design flaw in some applications that we might be building could cause more damage.
+However, a design flaw in some applications that we might be building could cause more damage.
 
 Imagine building a navigation app whose counter-intuitive design makes the driver look at the screen for a few seconds
 longer in order to comprehend the instructions. It could lead to accidents and fatalities.
