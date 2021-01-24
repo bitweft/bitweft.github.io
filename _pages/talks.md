@@ -19,6 +19,10 @@ layout: single
 ## TechnoWise
 - [MAD Lab for mobile test automation](https://www.meetup.com/TechnoWise/events/250127214/) (2018)
 
+## The Test Chat Events
+- [TesterSpeak Episode 23](https://www.youtube.com/watch?v=sJi-byIFM3M) (2021)
+- [Is Unit Testing Important and Why?](https://www.youtube.com/watch?v=LqellKq5crw) at WIT Episode 26 (2020)
+
 ## The Test Tribe Events
 - [Quality is a Team Responsibility](https://youtu.be/tLtUuqmBZKo) at TestFlix (2020)
 - [Treating Test Code as Production Code](https://www.slideshare.net/lavanyam210/treating-test-code-as-production-code) at TribalQonf (2020)
