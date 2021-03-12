@@ -4,7 +4,10 @@ permalink: /talks/
 layout: single
 ---
 ## Applitools Events
-- [Insights from "Unspoken" Customer Feedback](https://guildconferences.com/events/future-of-testing-winter-2020/) at Applitools FoT (2020)
+- [Insights from "Unspoken" Customer Feedback](https://applitools.com/event/insights-from-unspoken-customer-feedback/) at Applitools FoT (2020)
+
+## QA TechTalks Events
+- [Inspiring Confidence](https://www.youtube.com/watch?v=j7PulVfBNS4&ab_channel=QATechTalks) at WomenInTech Talks (2021)
 
 ## Selenium Conf
 - [Mobile Automation Device Lab](https://www.youtube.com/watch?v=FY-5AXyQBl4&feature=youtu.be) (2018)
@@ -21,6 +24,7 @@ layout: single
 
 ## The Test Chat Events
 - [TesterSpeak Episode 23](https://www.youtube.com/watch?v=sJi-byIFM3M) (2021)
+- [Panel Discussion on The Challenges in Test Automation](https://www.youtube.com/watch?v=N-8vtQcXpg4&list=PLJLHeJhMdVUFkA-gSGIHnix1ds7utOfxU&ab_channel=TheTestChat) (2021)
 - [Is Unit Testing Important and Why?](https://www.youtube.com/watch?v=LqellKq5crw) at WIT Episode 26 (2020)
 
 ## The Test Tribe Events
