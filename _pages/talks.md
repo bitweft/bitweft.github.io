@@ -6,6 +6,9 @@ layout: single
 ## Applitools Events
 - [Insights from "Unspoken" Customer Feedback](https://applitools.com/event/insights-from-unspoken-customer-feedback/) at Applitools FoT (2020)
 
+## Exploring Automation Series
+- [Exploring Automation: Lavanya Mohan and Ajay Balamurugadas](https://www.youtube.com/watch?v=P1O-tpeWdHQ&list=PLhf0dn_pMIK9n-XPWEV7l2PXrR_-WmCWN&ab_channel=AjayBalamurugadas) (2021)
+
 ## QA TechTalks Events
 - [Inspiring Confidence](https://www.youtube.com/watch?v=j7PulVfBNS4&ab_channel=QATechTalks) at WomenInTech Talks (2021)
 
