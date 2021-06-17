@@ -26,7 +26,8 @@ layout: single
 - [MAD Lab for mobile test automation](https://www.meetup.com/TechnoWise/events/250127214/) (2018)
 
 ## The Test Chat Events
-- [TesterSpeak Episode 23](https://www.youtube.com/watch?v=sJi-byIFM3M) (2021)
+- [Stories that Inspire - Episode 1](https://www.youtube.com/watch?v=YAc5Nn0mNeo&ab_channel=TheTestChat) (2021)
+- [TesterSpeak - Episode 23](https://www.youtube.com/watch?v=sJi-byIFM3M) (2021)
 - [Panel Discussion on The Challenges in Test Automation](https://www.youtube.com/watch?v=N-8vtQcXpg4&list=PLJLHeJhMdVUFkA-gSGIHnix1ds7utOfxU&ab_channel=TheTestChat) (2021)
 - [Is Unit Testing Important and Why?](https://www.youtube.com/watch?v=LqellKq5crw) at WIT Episode 26 (2020)
 
