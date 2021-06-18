@@ -3,7 +3,7 @@ redirect_from:
   - /posts/2017/ignore-it-i-am-lucky.html
 title: "Ignore it, I'm actually lucky!"
 excerpt: "A not very unusual day in the life of a working woman"
-tags: gender women perspectives
+tags: gender perspectives
 ---
 As she stops her auto-geared black coloured two wheeler in the Parking of Shambu Parathas and Biryani - a popular 
 restaurant near her apartment, Revathi looks at her watch. It says 10:15pm - almost closing time.

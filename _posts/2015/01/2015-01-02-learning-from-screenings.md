@@ -3,7 +3,7 @@ redirect_from:
   - /posts/2015/learnings-from-screenings.html
 title: "Learning from screenings"
 excerpt: "Commitment, interpersonal skills, meaning of success and other things we learnt by screening videos for groups"
-tags: work skill_development
+tags: work
 ---
 
 “I did not think of that side of things”, “I did not know that” are common things that we hear or say when we engage in 

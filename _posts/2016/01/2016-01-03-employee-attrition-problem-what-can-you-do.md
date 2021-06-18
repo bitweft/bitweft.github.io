@@ -3,7 +3,7 @@ redirect_from:
   - /posts/2016/employee-attrition-problem-what-can-you-do.html
 title: "Dealing with Employee Attrition"
 excerpt: "Employee Attrition Problems? What can you do?"
-tags: employee work
+tags: people work
 ---
 
 If you have worked for a couple of years in the same organisation, you would have witnessed a time when many of your 

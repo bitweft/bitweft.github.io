@@ -1,7 +1,7 @@
 ---
 title: "Productive Team Meetings"
 excerpt: "We want our meetings to be productive. But, in many instances, coming up with decisions take long. Also, getting everyone's commitment is a challenge"
-tags: teams meetings
+tags: teams
 ---
 Entering the meeting room at 8:30am sharp, Neha, the General Manager of N-1 Consultants, finds all the participants
 already present. After exchanging greetings, she addresses the team, "We all know why we have gathered here today.

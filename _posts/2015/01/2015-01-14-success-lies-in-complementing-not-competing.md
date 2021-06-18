@@ -3,7 +3,7 @@ redirect_from:
   - /posts/2015/success-lies-in-complementing-not-competing.html
 title: "Success lies in Complementing not Competing"
 excerpt: "Complementing is better than competing and will lead to success"
-tags: people competition teams
+tags: people teams
 ---
 
 Alice and Bob were peers working on a software project which had International clients and lucrative rewards. When they 

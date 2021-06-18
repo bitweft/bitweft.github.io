@@ -3,7 +3,7 @@ redirect_from:
   - /posts/2017/i-am-a-woman.html
 title: "I'm a woman"
 excerpt: "What you face when you're a woman"
-tags: gender women
+tags: gender
 ---
 
 I'm a woman...

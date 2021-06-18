@@ -1,7 +1,7 @@
 ---
 title: "Look Beyond Design Specifications"
 excerpt: "As testers, we should not just check if our product is as per the design and specifications stated. We need to experience the products in the ways an end user would use it."
-tags: quality design
+tags: quality test
 ---
 I recently read
 <a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=sr_1_1?dchild=1&keywords=the+design+of+everyday+things&qid=1608979440&sr=8-1" target="_blank">The Design of Everyday Things</a> by Don Norman.

@@ -1,7 +1,7 @@
 ---
 title: "Privilege"
 excerpt: "Story about privilege a person has and potentially exploits"
-tags: privilege fiction
+tags: privilege
 ---
 Informing the chauffeur that they will be back in about 2 hours, Sarah and her niece Maya step out of the car.
 “This definitely is going to be an interesting experience”, says Maya smiling, as they walk on a narrow, unpaved 
